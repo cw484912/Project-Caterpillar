@@ -1,0 +1,32 @@
+
+body {
+  background-color: lightblue;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.main-menu ul {
+  list-style-type = none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.main-menu li {
+  display: inline;
+}
+
+.main-menu li a {
+  color: white;
+  padding: 5px;
+  border-right-color: white;
+  border-left-color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.main-menu li a:hover {
+  color: red;
+  background-color: white;
+}
