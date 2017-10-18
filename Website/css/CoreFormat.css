@@ -8,21 +8,28 @@ body {
 
 }
 
-.container-nav {
+.wrapper-nav {
   text-align: center;
   width: 100%;
-  color: black;
+  background-color: PapayaWhip;
+  padding: 5px;
 }
 
 .nav-bar {
   overflow: hidden;
   float: middle;
-
 }
-
-
 
 .nav-bar a:hover {
   color: red;
   background-color: white;
+}
+
+.main-parallax {
+  background-image: url(img/test.jpg);
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
