@@ -22,14 +22,19 @@ body {
 
 .nav-bar a:hover {
   color: red;
-  background-color: white;
 }
 
 .main-parallax {
-  background-image: url(img/test.jpg);
-  height: 500px;
+  background-image: url("img/test.jpg");
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.temp {
+  font-size: 30px;
+  background-color: red;
+  height: 1000px;
 }
